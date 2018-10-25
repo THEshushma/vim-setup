@@ -17,6 +17,7 @@ filetype plugin indent on
 " -> vim-pandoc-syntax
 " -> YouCompleteMe
 " -> Zenburn
+" -> Powerline
 
 " ==============================================
 " Rust specific commands
@@ -142,3 +143,10 @@ set termguicolors
 hi LineNr ctermbg=NONE
 
 "let g:space_vim_dark_background = 234
+
+" Powerline
+" ====================================
+
+python3 from powerline.vim import setup as powerline_setup
+python3 powerline_setup()
+python3 del powerline_setup
