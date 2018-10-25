@@ -107,6 +107,7 @@ map <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
 " python highlight
 let python_highlight_all=1
 
+" =============================
 " color scheme
 " =============================
 
@@ -144,6 +145,7 @@ hi LineNr ctermbg=NONE
 
 "let g:space_vim_dark_background = 234
 
+" ====================================
 " Powerline
 " ====================================
 
