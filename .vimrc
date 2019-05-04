@@ -47,7 +47,7 @@ nmap <silent> <F2> :NERDTreeFind<CR>
 " ===============================================
 
 " enable mouse support
-set mouse=a
+"set mouse=a
 
 " distinct Capital if you mix it in search words
 set smartcase
